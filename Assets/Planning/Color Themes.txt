@@ -1,0 +1,13 @@
+My color Scheme
+
+#C8BFF2
+//
+EED5FD
+//
+#FFE3ED
+//
+#FFD9EB
+//
+#FFC9DF 
+//
+#FAB4D5

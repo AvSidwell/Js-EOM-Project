@@ -1,0 +1,95 @@
+/*
+#C8BFF2
+#EED5FD
+#FFE3ED
+#FFD9EB
+#FFC9DF 
+#FAB4D5
+*/
+
+/* Nav Styling */
+.navStyle {
+  color: #c8bff2;
+  margin: 0.5rem;
+}
+
+.navStyle:hover {
+  color: #eed5fd;
+  border-bottom: solid 0.1rem #eed5fd;
+}
+.navStyle1 {
+  color: #c8bff2;
+  margin: 0.5rem;
+}
+
+.navStyle1:hover {
+  color: #eed5fd;
+  border-bottom: solid 0.1rem #eed5fd;
+}
+
+.togglerBtn {
+  display: none;
+}
+
+.navLogo {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  margin-right: 3rem;
+}
+
+nav {
+  background-color: #5c6453;
+}
+ul {
+  list-style: none;
+}
+/* End of Nav Styling */
+
+/* Nav Responsiveness */
+@media screen and (max-width: 300px) {
+  .togglerBtn {
+    display: block;
+  }
+  .navStyle {
+    visibility: hidden;
+  }
+  .navLogo {
+    margin: 0;
+  }
+  .navStyle {
+    margin: 0;
+  }
+}
+
+/* End ofNav Responsiveness *
+
+  /*Home / Landing  */
+.fumes1 {
+  margin-top: 4.5rem;
+  width: 100%;
+  height: 50vh;
+}
+.card {
+  width: 17rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 300px) {
+  .card {
+    width: 100%;
+    margin: auto;
+  }
+}
+/*End of Home / Landing  */
+
+/*  */
+/* Footer */
+footer {
+  background-color: #5c6453;
+  margin: auto;
+}
+
+/* End of Footer */

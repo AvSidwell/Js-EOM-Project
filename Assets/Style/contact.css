@@ -1,0 +1,129 @@
+/*
+#C8BFF2
+#EED5FD
+#FFE3ED
+#FFD9EB
+#FFC9DF 
+#FAB4D5
+*/
+
+/* Nav Styling */
+.navStyle {
+    color: #c8bff2;
+    margin: 0.5rem;
+  }
+  
+  .navStyle:hover {
+    color: #eed5fd;
+    border-bottom: solid 0.1rem #eed5fd;
+  }
+.navStyle1 {
+    color: #c8bff2;
+    margin: 0.5rem;
+  }
+  
+  .navStyle1:hover {
+    color: #eed5fd;
+    border-bottom: solid 0.1rem #eed5fd;
+  }
+  
+  .togglerBtn {
+    display: none;
+  }
+  
+  .navLogo {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    margin-right: 3rem;
+  }
+  
+  nav {
+    background-color: #5c6453;
+  }
+  ul {
+    list-style: none;
+  }
+  /* End of Nav Styling */
+  
+  /* Nav Responsiveness */
+  @media screen and (max-width: 300px) {
+    .togglerBtn {
+      display: block;
+    }
+    .navStyle {
+      visibility: hidden;
+    }
+    .navLogo {
+      margin: 0;
+    }
+    .navStyle {
+      margin: 0;
+    }
+
+
+  }
+  
+  /* End ofNav Responsiveness */
+
+  /* Home */
+  .input1 {
+    width: 35rem;
+    border-radius: 0.5rem;
+  }
+  .input2 {
+    width: 35rem;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  .btn1 {
+    background-color: #5c6453;
+    color: #c8bff2;
+    border-radius: 0.5rem;
+  }
+  .btn1:hover {
+    color: #5c6453;
+    background-color: #c8bff2;
+    border-color: #FAB4D5;
+  }
+
+  .holder {
+    background-color:#c8bff2;
+  }
+
+
+  .mapHolder {
+    background-color: #FAB4D5;
+  } 
+
+  @media screen and (max-width: 300px){
+    .input1 {
+      width: 90%;
+      margin: auto;
+    }
+    .input2 {
+      width: 90%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+    .tr {
+      margin-top: 2rem;
+      text-align: center;
+      writing-mode: horizontal-tb;
+      text-orientation: none;
+    }
+  }
+
+  /* End of Home */
+
+
+  /*  */
+/* Footer */
+footer {
+  background-color: #5c6453;
+  margin: auto;
+}
+
+/* End of Footer */

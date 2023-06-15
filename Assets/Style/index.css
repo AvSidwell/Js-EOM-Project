@@ -17,9 +17,18 @@
   color: #eed5fd;
   border-bottom: solid 0.1rem #eed5fd;
 }
+.navStyle1 {
+  color: #c8bff2;
+  margin: 0.5rem;
+}
+
+.navStyle1:hover {
+  color: #eed5fd;
+  border-bottom: solid 0.1rem #eed5fd;
+}
 
 .togglerBtn {
-  display: hidden;
+  display: none;
 }
 
 .navLogo {
@@ -44,7 +53,7 @@ ul {
     display: block;
   }
   .navStyle {
-    display: none;
+    visibility: hidden;
   }
   .navLogo {
     margin: 0;
@@ -58,13 +67,82 @@ ul {
 
 /* Home Hero Section */
 main {
+  background-color: #c8bff2;
   padding: 0.2rem;
+  /* height: 200vh; */
 }
-.cont {
-  background-image: url("/1.png");
+#cont {
+  background-image: url("https://i.postimg.cc/J0JhHN9r/c3.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw;
-  height: 50vh;
-  width: 100vw;
+  background-size: cover;
+ height: 70vh;
+  width: 100%;
+}
+
+.carousel {
+  height: 70vh;
+  padding: 1px;
+  background-color: antiquewhite;
+}
+
+.card {
+  width: 18rem;
+   margin: auto;
+   margin-top: 3rem;
+}
+
+.btm_Style  {
+  background-color: #C8BFF2 !important;
+}
+
+.imgHeight {
+  height: 10rem;
+}
+
+.card-body {
+  background-color: #C8BFF2;
+}
+
+.headTxt {
+  color: #5c6453;
+}
+
+.btnColor {
+  color: #EED5FD;
+  background-color: #5c6453;
+}
+.btnColor:hover {
+  color: #5c6453;
+  background-color: #C8BFF2;
+  border: solid #5c6453;
+}
+
+#fumes {
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+  font-weight: bold;
+  font-size: 6rem;
+  font-style: oblique;
+}
+@media screen and (max-width: 300px){
+  .card {
+    width: 18rem;
+     margin: auto;
+     margin-top: 30%;
+  }
 }
 /*End of Home Hero Section */
+
+footer {
+  background-color: #5c6453;
+}
+
+/*  */
+/* Footer */
+footer {
+  background-color: #5c6453;
+  margin: auto;
+}
+
+/* End of Footer */

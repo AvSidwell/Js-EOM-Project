@@ -1,0 +1,121 @@
+/*
+#C8BFF2
+#EED5FD
+#FFE3ED
+#FFD9EB
+#FFC9DF 
+#FAB4D5
+*/
+
+/* Nav Styling */
+.navStyle {
+    color: #c8bff2;
+    margin: 0.5rem;
+  }
+  
+  .navStyle:hover {
+    color: #eed5fd;
+    border-bottom: solid 0.1rem #eed5fd;
+  }
+  
+.navStyle1 {
+    color: #c8bff2;
+    margin: 0.5rem;
+  }
+  
+  .navStyle1:hover {
+    color: #eed5fd;
+    border-bottom: solid 0.1rem #eed5fd;
+  }
+  
+  .togglerBtn {
+    display: none;
+  }
+  
+  .navLogo {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    margin-right: 3rem;
+  }
+  
+  nav {
+    background-color: #5c6453;
+  }
+  ul {
+    list-style: none;
+  }
+  /* End of Nav Styling */
+  
+  /* Nav Responsiveness */
+  @media screen and (max-width: 300px) {
+    .togglerBtn {
+      display: block;
+    }
+    .navStyle {
+      visibility: hidden;
+    }
+    .navLogo {
+      margin: 0;
+    }
+    .navStyle {
+      margin: 0;
+    }
+    .container-fluid {
+      height:4.5rem !important;
+    }
+
+    li .navStyle{
+      height: 1rem !important;
+    }
+  }
+  
+  /* End ofNav Responsiveness */
+  .left {
+    background-color: #c8bff2;
+    height: 75vh;
+    padding-top:4.5rem;
+    text-align: center;
+  }
+
+  .right {
+    background-color: #FAB4D5;
+    height: 75vh;
+    padding-top: 4.5rem;
+    text-align: center;
+  }
+
+  .typo:hover {
+    color: #eed5fd;
+    border-bottom: solid 0.1rem #eed5fd;
+  }
+
+  .typo:hover {
+    color: #eed5fd;
+    border-bottom: solid 0.1rem #eed5fd;
+  }
+
+  #img1 {
+    height: 12rem;
+    width: 12rem;
+  }
+@media screen and(max-width: 300px){
+  .row {
+    padding-top: 10rem !important;
+  }
+  .left {
+    padding-top: 10rem !important;
+  }
+
+  
+}
+
+/*  */
+/* Footer */
+footer {
+  background-color: #5c6453;
+  margin: auto;
+}
+
+/* End of Footer */

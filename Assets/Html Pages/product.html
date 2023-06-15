@@ -132,6 +132,43 @@
       </div>
     </nav>
     <main>
+      <div class="row">
+        <div class="col-12 col-md-6 col-sm-6">
+          <img
+            src="https://i.postimg.cc/jdhdDNsT/1.png"
+            class="fumes1"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-md-6 col-sm-6">
+          <div>
+            <h1>Get Products in your price range :</h1>
+            <br>
+            <input type="number" id="min" class="m-2 m-auto">
+            <input type="number" id="max" class="m-2 m-auto">
+            <br>
+            <input type="number" name="" readonly id="total">
+            <button id="filter">Enter</button>
+          </div>
+        </div>
+      </div>
+      <div class="filter">
+        <div>
+        <label for="category">Types of Products available</label>
+            <select id="category">
+              <option value="All">All</option>
+              <option value="M">Men</option>
+              <option value="W">Female</option>
+              <option value="N">Natural</option>
+            </select>
+            <button onclick="filterProducts()" class="filter-btn">Filter</button>
+            <button onclick="sorT()">Sort</button>
+        </div>
+      </div>
+
+      <div class="row p-2" id="catMen">
+        <div class="d-flex justify-content-evenly m-2 center" ></div>
+      </div>
       <div id="catMen" class="row"></div>
 
       <!-- Cart Modal -->
@@ -148,6 +185,8 @@
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="staticBackdropLabel">Cart</h1>
+        <br>
+        <label for="cart" class="modal-title fs-5" id="lable">Total : <span id="total"></span> </label>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" id="modalCart">
@@ -161,28 +200,9 @@
   </div>
 </div>
 </div>
-    
-      <div class="row">
-        <div class="col-12 col-md-6 col-sm-6">
-          <img
-            src="https://i.postimg.cc/jdhdDNsT/1.png"
-            class="fumes1"
-            alt=""
-          />
-        </div>
-        <div class="col-12 col-md-6 col-sm-6"></div>
-      </div>
 
-      <div class="row p-2" id="catMen">
-        <div>
-          <input type="text" id="min">
-          <input type="text" id="max">
-          <button id="filter"></button>
-        </div>
-        <div class="d-flex justify-content-evenly m-2 center" ></div>
-      </div>
-      <button onclick="sorT()">Sort</button>
     
+      
     </main>
     <footer>
       <div class="footer-container ">

@@ -131,6 +131,11 @@ main {
      margin: auto;
      margin-top: 30%;
   }
+  #fumes {
+    position: absolute;
+    top: 23rem;
+    left: 0.5rem;
+    font-size: 5.5rem;
 }
 /*End of Home Hero Section */
 

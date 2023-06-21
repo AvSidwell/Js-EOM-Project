@@ -138,28 +138,47 @@
     </nav>
     <main>
       <div class="row">
-        <div class="">
+        <div class="col-12">
           <img
             src="https://i.postimg.cc/jdhdDNsT/1.png"
             class="fumes1"
             alt=""
           />
         </div>
-        <div>
-          <div class="col-6 col-md-6 col-sm-6">
-            <div>
-              <h1>Get Products in your price range :</h1>
+
+        <div class="col-12 col-md-6 col-sm-6 text-center m-0">
+          <div>
+            <div style="background-color: #fab4d5">
+              <h1>Get Products in your price range</h1>
               <br />
-              <input type="number" id="min" class="m-2 m-auto" />
-              <input type="number" id="max" class="m-2 m-auto" />
+              From:
+              <input
+                type="number"
+                id="min"
+                class="m-2 m-auto"
+                style="margin: auto; margin: 1rem"
+              />
+              To
+              <input
+                type="number"
+                id="max"
+                class="m-2 m-auto"
+                style="margin: auto; margin: 1rem"
+              />
               <br />
-              <input type="number" name="" readonly id="total" />
+              <input
+                type="number"
+                name=""
+                readonly
+                id="total"
+                style="margin: auto; margin: 1rem"
+              />
               <button id="filter">Enter</button>
             </div>
           </div>
         </div>
-        <div class="filter">
-          <div class="col-6 col-md-12 col-sm-6 mt-6 text-center"> 
+        <div class="col-12 col-md-6 col-sm-6 mt-6 text-center m-0" style="background-color: #C8BFF2;">
+          <div class="filter pt-5 text-center">
             <label for="category">Types of Products available</label>
             <select id="category">
               <option value="All">All</option>
@@ -204,7 +223,8 @@
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">Cart</h1>
                 <br />
                 <label for="cart" class="modal-title fs-5" id="lable"
-                  >Total : <span id="total"></span>
+                  > 
+
                 </label>
                 <button
                   type="button"

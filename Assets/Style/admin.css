@@ -62,6 +62,33 @@
       margin: 0;
     }
   }
+
+  .container {
+    height: 65vh;
+  }
+
+  th {
+    border: solid #5c6453 !important;
+    width: 20%;
+  }
+
+td {
+  border: solid #c8bff2;
+}
+
+  @media screen and (max-width: 300px){
+    th {
+      display: none;
+    }
+
+    td {
+      width: 12rem;
+      display: flex;
+      text-align: center;
+    }
+
+
+  }
   
   /* End ofNav Responsiveness *
   /*  */
